@@ -1,0 +1,178 @@
+*{
+   
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Calistoga', serif;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+   
+    overflow-x: hidden;
+    
+}
+
+body{
+background-image: url("./assest/login\ backgeound.jpg");
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+
+.container{
+width: 700px;
+height: 460px;
+margin: auto;
+
+margin-top: 80px;
+display: flex;
+justify-content: center;
+/* border-radius: 10px; */
+
+}
+.img{
+height: 460px;
+width:303px;
+
+}
+.img_container{
+overflow-y: hidden;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+.login_heading h2{
+ color: white;
+}
+
+.signup_container{
+height: 460px;
+width: 60%;
+backdrop-filter: blur(14px);
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+border: 2px solid white;
+border-right: none;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+label{
+font-weight: bolder;
+color: rgb(242, 242, 242)
+} 
+
+.input{
+height: 30px;
+width: 220px;
+border-radius: 8px;
+border: none;
+padding-left: 10px;
+font-size: 12px;
+
+}
+.btn{
+height: 34px ;
+width: 100px;
+color: white;
+background-color: rgb(82, 4, 51);
+border-radius: 8px;
+border: none;
+}
+
+.btn:hover{
+    border: 2px solid rgb(40, 3, 25);
+     color:rgb(40, 3, 25) ;
+}
+.linking{
+color: blue;
+text-decoration: none;
+font-size: 13px;
+
+}
+.linking:hover{
+text-decoration:underline;
+color: black;
+}
+
+@media only screen and (max-width:768px) {
+
+    .container {
+        width: 500px;
+        height: 380px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .img {
+        height: 380px;
+        width: 280px;
+    }
+
+    .img_container {
+        overflow-y: hidden;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .signup_container {
+        height: 380px;
+        width: 60%;
+    }
+
+    label {
+        font-size: 13px;
+        font-weight: bolder;
+        color: rgb(3, 1, 49)
+    }
+
+    .input {
+        height: 26px;
+        width: 190px;
+        padding-left: 8px;
+        font-size: 12px;
+    }
+
+    .btn {
+        height: 28px;
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width:560px) {
+
+    .container {
+        width: 250px;
+        height: 380px;
+        
+    }
+
+    .img {
+        height: 380px;
+        width: 280px;
+    }
+
+    .img_container {
+        overflow-y: hidden;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        display: none;
+    }
+
+    .signup_container {
+        height: 380px;
+        border: 2px solid white;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+}

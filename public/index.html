@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FashionFusion SignUp</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Calistoga&family=Edu+TAS+Beginner&family=Lato:wght@300;400&family=Lexend+Deca:wght@200&family=Martian+Mono:wght@300&family=Nunito:wght@300&family=Open+Sans:wght@300;400&family=Pixelify+Sans&family=Poppins:wght@200;400&family=Roboto:wght@300&family=Rubik:wght@300&family=Tilt+Neon&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="signup_container">
+            <div class="box">
+                
+
+                <label for="email">Email</label>
+                <div><input required placeholder="email" id="email" class="input" type="email"></div>
+                <br>
+
+                
+                <label for="pass">Password</label>
+                <div><input required placeholder="password" id="pass" class="input" type="password"></div>
+                <br>
+
+               
+
+                <button class="btn" onclick="logIn()">Login</button>
+                <button class="btn" onclick="facebook()">facebook</button>
+                <br>
+                <a class="linking" href="./signup/signup.html">Create Account</a>
+            </div>
+        </div>
+        <div class="img_container">
+            <img class="img" src="./assest/login.jfif" alt="">
+        </div>
+
+    </div>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="module" src="./login.js"></script>
+</body>
+
+</html>
